@@ -1,0 +1,27 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints/
+
+# Environment
+.venv/
+venv/
+env/
+
+# Dataset mentah (jangan commit file besar)
+data/small/*
+data/medium/*
+data/large/*
+!data/small/.gitkeep
+!data/medium/.gitkeep
+!data/large/.gitkeep
+*.csv.gz
+*.zip
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Colab
+.ipynb_checkpoints

@@ -1,0 +1,13 @@
+dataset,category,n_runs,cpu_mean_s,gpu_mean_s,t_statistic,p_value,alpha,reject_H0,conclusion
+Iris,Kecil,10,0.012323,0.005019,41.6973,9.1515e-14,0.05,Ya,Perbedaan runtime CPU-GPU SIGNIFIKAN (p=9.15e-14 < α=0.05)
+Seeds,Kecil,10,0.014275,0.00548,30.8944,5.2979e-13,0.05,Ya,Perbedaan runtime CPU-GPU SIGNIFIKAN (p=5.30e-13 < α=0.05)
+Wine UCI,Kecil,10,0.013591,0.004976,35.651,8.7354e-12,0.05,Ya,Perbedaan runtime CPU-GPU SIGNIFIKAN (p=8.74e-12 < α=0.05)
+Wine Quality,Sedang,10,0.084936,0.018853,53.8721,5.2490e-14,0.05,Ya,Perbedaan runtime CPU-GPU SIGNIFIKAN (p=5.25e-14 < α=0.05)
+Adult,Sedang,10,0.321299,0.046834,91.2083,6.5330e-15,0.05,Ya,Perbedaan runtime CPU-GPU SIGNIFIKAN (p=6.53e-15 < α=0.05)
+Dry Bean,Sedang,10,0.179555,0.034806,57.374,9.9484e-14,0.05,Ya,Perbedaan runtime CPU-GPU SIGNIFIKAN (p=9.95e-14 < α=0.05)
+Covertype,Besar,10,18.538808,0.646776,88.0973,1.5364e-14,0.05,Ya,Perbedaan runtime CPU-GPU SIGNIFIKAN (p=1.54e-14 < α=0.05)
+Poker Hand,Besar,10,14.175078,0.63063,102.4647,3.8645e-15,0.05,Ya,Perbedaan runtime CPU-GPU SIGNIFIKAN (p=3.86e-15 < α=0.05)
+Sensorless,Besar,10,2.836357,0.17375,77.0963,4.5204e-14,0.05,Ya,Perbedaan runtime CPU-GPU SIGNIFIKAN (p=4.52e-14 < α=0.05)
+HIGGS,Sangat Besar,10,51.761777,1.219853,191.7102,1.4279e-17,0.05,Ya,Perbedaan runtime CPU-GPU SIGNIFIKAN (p=1.43e-17 < α=0.05)
+SUSY,Sangat Besar,10,46.564561,1.193085,112.2335,1.7868e-15,0.05,Ya,Perbedaan runtime CPU-GPU SIGNIFIKAN (p=1.79e-15 < α=0.05)
+Airline Delay,Sangat Besar,10,40.92528,1.213037,117.1259,1.1953e-15,0.05,Ya,Perbedaan runtime CPU-GPU SIGNIFIKAN (p=1.20e-15 < α=0.05)
